@@ -44,7 +44,7 @@
    
 
     <input type="number" id="number" name="number" min="0" value="0" oninput="validity.valid||(value='');" required> 
-    <button class="btn btn-primary" onClick="FizzbuzzHTML()">test</button>
+    <button class="btn btn-primary" onClick="FizzbuzzHTML()">Valider</button>
 
    
     <!-- <form action="resultat.php" method="post"></form> -->

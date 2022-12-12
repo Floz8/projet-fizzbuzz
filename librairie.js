@@ -84,7 +84,7 @@ element.appendChild(para);
     {
         
         console.log("Buzz");
-        const node= document.createTextNode("buzz");
+        const node= document.createTextNode("Buzz");
         para.setAttribute('id', 'nombre');
         para.appendChild(node);
     }
