@@ -17,9 +17,12 @@
 <body>
     <!-- <form action="resultat.php" method="post"></form> -->
     <input type="number" id="number" name="number" min="0" oninput="validity.valid||(value='');"> 
-    <button class="btn btn-primary" onClick="Fizzbuzz()">test</button>
+    <button class="btn btn-primary" onClick="FizzbuzzHTML()">test</button>
     
-
+    <div id="resultat">
+    <p> Resultat: </p>        
+</div>
+<!--
     <div class="card" style="width: 18rem;">
 
   <div class="card-body">
@@ -27,6 +30,7 @@
     <p class="card-text">To do</p>
   </div>
 </div>
+-->
 
 </body>
 </html>
