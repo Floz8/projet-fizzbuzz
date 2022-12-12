@@ -1,6 +1,6 @@
 # Fizzbuzz
 
-Cette application Web retourne un texte selon le nombre entré par l'utilisateur.
+Cette application Web retourne un texte selon **l'entier positif** entré par l'utilisateur.
 
 Si le nombre est **divisible par 3**, "Fizz" est affiché
 
