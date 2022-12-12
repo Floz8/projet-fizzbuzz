@@ -1,3 +1,5 @@
+//Le fichier librairie.js est le fichier où se trouvent les fonctions de l'application
+
 
 //Fonction de test. Ecrit le résultat dans la console
 //Pour voir qu'un nombre est divisible 

@@ -42,26 +42,17 @@
 </header>
 <body>
    
-
+    <!--L'utilisateur ne peut pas entrer de nombre négatif ou décimaux dans ce champ -->
     <input type="number" id="number" name="number" min="0" value="0" oninput="validity.valid||(value='');" required> 
+    <!--On appelle la fonction FizzbuzzHTML() en cliquant sur le bouton. -->
     <button class="btn btn-primary" onClick="FizzbuzzHTML()">Valider</button>
 
    
-    <!-- <form action="resultat.php" method="post"></form> -->
    
-    
+   
     <div id="resultat">
     <p> Resultat: </p>        
-</div>
-<!--
-    <div class="card" style="width: 18rem;">
-
-  <div class="card-body">
-    <h5 class="card-title">Résultat:</h5>
-    <p class="card-text">To do</p>
-  </div>
-</div>
--->
+    </div>
 
 </body>
 </html>
