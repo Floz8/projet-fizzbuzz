@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="librairie.js"></script>
     <title>FizzBuzz</title>
+  
 </head>
 <body>
-    <form action="" method="post"></form>
-    <text> <?php echo('hello'); ?></text>
+    <!-- <form action="resultat.php" method="post"></form> -->
+    <input type="number" id="number" name="number"> 
+    <button onClick="Fizzbuzz()">test</button>
     
 </body>
 </html>
